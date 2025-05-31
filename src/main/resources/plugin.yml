@@ -1,0 +1,4 @@
+name: Duels
+version: '1.0-SNAPSHOT'
+main: com.lookatfr3sn0.duels.Duels
+api-version: '1.21'
