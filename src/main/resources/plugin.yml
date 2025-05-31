@@ -2,3 +2,22 @@ name: Duels
 version: '1.0-SNAPSHOT'
 main: com.lookatfr3sn0.duels.Duels
 api-version: '1.21'
+load: POSTWORLD
+description: A Minecraft plugin for duels.
+author: LookAtFr3sn0
+commands:
+  duel:
+    description: Start matchmaking for a duel or invite a player to a duel.
+    usage: /<command> [player]
+    permission: duels.matchmaking
+    permission-message: You do not have permission to use this command.
+permissions:
+  duels.matchmaking:
+    description: Allows players to start matchmaking for a duel or invite another player.
+    default: true
+  duels.spectate:
+    description: Allows players to spectate duels.
+    default: true
+  duels.admin:
+    description: Allows players to use admin commands for duels.
+    default: op
